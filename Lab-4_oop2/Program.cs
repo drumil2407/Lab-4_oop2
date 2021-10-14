@@ -31,7 +31,7 @@ namespace Lab_4_oop2
 
 			for (int i = 0; i < 1000; ++i)
 			{
-				c.AddPhonon(new Phonon(-1));
+				c.AddPhonon(new Phonon(1));
 			}
 			c.TakeMeasurements(1e6, 300);
 
